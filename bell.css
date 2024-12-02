@@ -8,12 +8,6 @@ h1 {
     align-items: center;
 }
 
-.johnImg {
-    float: left; /* Faz a imagem flutuar à esquerda */
-    width: 200px; /* Tamanho da imagem */
-    margin-right: 20px;
-}
-
 h2 {
     font-size: 45px;
     overflow: hidden;
@@ -45,7 +39,7 @@ h2 {
 .card img {
     width: 100%; /* As imagens vão ocupar toda a largura do card */
     height: auto;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0 0;
     transition: transform 0.3s ease;
 }
 
@@ -54,7 +48,6 @@ h2 {
 }
 
 .card-content{
-   
     margin-left: 20%;
     background-color: rgb(64, 83, 33);
     margin-right: 20%;
@@ -71,7 +64,6 @@ h1{
         font-family: 'Mea Culpa', cursive;
         font-size: 3rem;
         font-weight: 400;
-
 }
 
 .especial{
@@ -81,7 +73,6 @@ margin-left: 5rem;
 text-align: center;
 /*background-color:  rgb(64, 83, 33);*/
 padding: 3rem;
-
 }
 
 .especial h1{
@@ -117,7 +108,7 @@ padding: 3rem;
 }
 
 #div3{
-    background-image: url("https://i.pinimg.com/originals/06/42/c1/0642c14929934fb1962617d46a992fa9.gif");
+    background-image: url("https://64.media.tumblr.com/98f05c8db54ee0ec93ff6bfad22de563/42717a9b8379d75b-ac/s400x600/caf6ef7950d14c8c33d256f677b9cc1ee16470de.gifv");
     background-size: cover; /* A imagem de fundo vai cobrir toda a área da div */
     background-position: center; /* A imagem será centralizada */
     padding: 5.8rem; /* Espaçamento interno, ajustável conforme necessidade */
