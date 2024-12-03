@@ -8,6 +8,12 @@ h1 {
     align-items: center;
 }
 
+.johnImg {
+    float: left; /* Faz a imagem flutuar à esquerda */
+    width: 200px; /* Tamanho da imagem */
+    margin-right: 20px;
+}
+
 h2 {
     font-size: 45px;
     overflow: hidden;
@@ -108,13 +114,14 @@ padding: 3rem;
 }
 
 #div3{
-    background-image: url("https://i.pinimg.com/originals/12/28/39/122839733060c99d79b4cb32dcc1b314.gif");
+    background-image: url("https://i.pinimg.com/736x/f7/40/89/f740899c4e8cc9f2ec9cc27eff98c733.jpg");
     background-size: cover; /* A imagem de fundo vai cobrir toda a área da div */
     background-position: center; /* A imagem será centralizada */
     padding: 5.8rem; /* Espaçamento interno, ajustável conforme necessidade */
     height: auto;
     width: 150px;
     max-width: 100%;
+   
 }
 
 #div3 a{
