@@ -12,7 +12,8 @@
     overflow:hidden;
     align-items: center;
     position: relative;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .card:hover{
@@ -26,6 +27,8 @@
     height:auto;
     border-radius: 10px 10px 0 0;
     transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
 }
 
 .card:hover img{
@@ -50,41 +53,49 @@ h2{
 
 
 
-#mulheres2 a{
+#mulheres2 h2{
     color: black;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 #mulheres2{
     width: 100%;
-    height: 5rem;
-    text-align: center;
+    height: 3rem;
+    align-items: center;
 }
 
-#flor a{
+#flor h2{
     color: black;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 #flor{
     width: 100%;
-    height: 5rem;
+    height: 3rem;
     text-align: center;
 }
 
-#orgulho2 a{
+#orgulho2 h2{
     color: black;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 #orgulho2{
     width: 100%;
-    height: 5rem;
-    text-align: center;
+    height: 3rem;
+    align-items: center;
 }
+
+
 
 #div1{
     background-image: url("https://i.pinimg.com/736x/fa/c2/91/fac291b9669aca4328f027c82138769e.jpg");
@@ -150,10 +161,6 @@ h2{
     font-weight: bold;
 }
 
-.especial:hover {
-    transform: scale(1.1); /* Aumenta a div ao passar o mouse */
-    color: #007bff; /* Muda a cor do texto ao passar o mouse */
-}
 
 .especial a:hover {
     color: #ff6347; /* Cor de link ao passar o mouse */
@@ -168,7 +175,7 @@ h2{
 
 .verde{
     margin-top: 6rem;
-    margin-left: 30rem;
+    margin-left: 18rem;
     height: 10rem;
     width: 50rem;
     max-width: 100%;
