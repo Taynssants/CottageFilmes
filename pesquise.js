@@ -1,6 +1,7 @@
 function searchMovie() {
     const movieName = document.getElementById('movieName').value.trim().toLowerCase(); // Corrigido: de ariaValueMax para value
     const cards = document.querySelectorAll('.card');
+    const resultContainer = document.querySelector('.result-container');
 
     if (!movieName) {
         alert('Por favor, digite o nome de um filme');
@@ -18,6 +19,7 @@ function searchMovie() {
     cards.forEach(card => {
         const title = card.getAttribute('data-title').toLowerCase();
         if (title.includes(movieName)) {
+            resultContainer.appendChild(card); // Move o card para o result-container
             card.style.display = 'block'; // Exibe o card correspondente
             found = true;
         }

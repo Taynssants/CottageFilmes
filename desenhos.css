@@ -60,7 +60,7 @@ h2{
 
 
 
-#pooh h2{
+#pooh a{
     color: black;
     text-decoration: none;
     font-size: 1.5rem;
@@ -75,7 +75,7 @@ h2{
   
 }
 
-#aurora h2{
+#aurora a{
     color: black;
     text-decoration: none;
     font-size: 1.5rem;
@@ -89,13 +89,8 @@ h2{
     text-align: center;
 }
 
-#marnie img{
-    width: 700px; 
-    margin-left: auto;
-    margin-right: auto; 
-}
 
-#bambi h2{
+#bambi a{
     color: black;
     text-decoration: none;
     font-size: 1.5rem;

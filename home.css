@@ -53,7 +53,7 @@ h2{
 
 
 
-#mulheres2 h2{
+#mulheres2 a{
     color: black;
     text-decoration: none;
     font-size: 1.5rem;
@@ -67,7 +67,7 @@ h2{
     align-items: center;
 }
 
-#flor h2{
+#flor a{
     color: black;
     text-decoration: none;
     font-size: 1.5rem;
@@ -81,7 +81,7 @@ h2{
     text-align: center;
 }
 
-#orgulho2 h2{
+#orgulho2 a{
     color: black;
     text-decoration: none;
     font-size: 1.5rem;
@@ -103,8 +103,9 @@ h2{
     background-position: center; /* A imagem será centralizada */
     padding: 5.8rem; /* Espaçamento interno, ajustável conforme necessidade */
     height: auto;
-    width: 150px;
+    width: 160px;
     max-width: 100%;
+    transition: transform 0.3s ease;
 }
 
 #div1 a{
@@ -113,21 +114,6 @@ h2{
     font-size: 1.5rem;
 }
 
-#div2{
-    background-image: url("https://i.pinimg.com/736x/fa/c2/91/fac291b9669aca4328f027c82138769e.jpg");
-    background-size: cover; /* A imagem de fundo vai cobrir toda a área da div */
-    background-position: center; /* A imagem será centralizada */
-    padding: 5.8rem; /* Espaçamento interno, ajustável conforme necessidade */
-    height: auto;
-    width: 150px;
-    max-width: 100%;
-}
-
-#div2 a{
-    color: black;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
 
 #div3{
     background-image: url("https://i.pinimg.com/736x/fa/c2/91/fac291b9669aca4328f027c82138769e.jpg");
@@ -135,7 +121,7 @@ h2{
     background-position: center; /* A imagem será centralizada */
     padding: 5.8rem; /* Espaçamento interno, ajustável conforme necessidade */
     height: auto;
-    width: 150px;
+    width: 160px;
     max-width: 100%;
 }
 
@@ -161,10 +147,6 @@ h2{
     font-weight: bold;
 }
 
-
-.especial a:hover {
-    color: #ff6347; /* Cor de link ao passar o mouse */
-}
 
 .especial-container {
     display: flex;            /* Alinha os itens em linha (horizontalmente) */
